@@ -74,7 +74,7 @@ export default function Dashboard(props) {
 
                                 <Grid item>
 
-                                    <Button variant="outlined" color="primary">
+                                    <Button variant="outlined" color="primary" href="/viewNumber">
                                         View Numbers
                                     </Button>
 
