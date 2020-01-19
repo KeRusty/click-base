@@ -7,6 +7,7 @@ import Login from '../Login/Login';
 import Register from "../Register/Register";
 import Dashboard from "../Dashboard/Dashboard";
 import AddNumber from "../AddNumber/AddNumber";
+import ViewNumbers from "../ViewNumbers/ViewNumbers";
 
 class Main extends Component {
     constructor(props) {
@@ -26,6 +27,7 @@ class Main extends Component {
                     <Route exact path="/register" component={Register} />
                     <Route exact path="/dashboard" component={Dashboard} />
                     <Route exact path="/addNumber" component={AddNumber} />
+                    <Route exact path="/viewNumber" component={ViewNumbers} />
                 </Switch>
             </main>
         );
